@@ -42,8 +42,58 @@ class Operacao:
     def raiz(self, num):
         return math.sqrt(num)
 
-    def imprimanum(self, num1):
+    def exercicio01(self):
+        resultado = ""
+        for i in range(1, 11, 1):
+            resultado += f'\n{i}'
+        return resultado
+
+    def exercicio02(self):
+        pares = ""
+        for i in range(1,21,1):
+            if i % 2 == 0:
+                pares += f'\n{i}'
+        return pares
+
+    def exercicio03(self, num1):
+      soma = 0
+      for i in range(1,101):
+          soma += i
+      return soma
+
+    def exercicio04(self):
+        mult = ""
+        for i in range(5, 51, 5):
+            mult += f'\n{i}'
+        return mult
+
+    def exercicio05(self, num):
+        if num % 2 == 0:
+            return "par"
+        else:
+            return "impar"
+
+    def exercicio06(self, num):
+        if num < 0:
+            return "Numero negativo"
+        elif num > 0:
+            return "numero positivo"
+        else:
+            return "Numero neutro"
+
+    def exercicio07(self, num1):
         resultado = ""
         for i in range(0, 11, 1):
-            resultado += f'\n{num1} + {i} = {num1 + i}'
+            resultado += f'\n{num1} * {i} = {num1 * i}'
+        return resultado
+    def exercicio08(self, num):
+        resultado = ""
+        for i in range(1, num, 1):
+            resultado += f'\n{i+1}'
+        return resultado
+
+    def exercicio09(self, num):
+        resultado = ""
+        for i in range(1, num, 1):
+            resultado += f'\n{i+1}'
         return resultado
