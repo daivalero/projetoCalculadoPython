@@ -69,6 +69,35 @@ class Menu:
             elif self.opcao == 8:
                 self.coletar()  # Chamando o input
                 print(f'Os numeros imprimidos são:  {self.opera.imprimanum(self.num1)}')
+                
+            elif self.opcao == 9:
+                print(self.opera.exercicio02())
+            
+            elif self.opcao == 9:
+                print(self.opera.exercicio02())
+
+            elif self.opcao == 10:
+                print(f'A soma do número até 100 é:  {self.opera.exercicio03(self.num1)}')
+
+            elif self.opcao == 11:
+                print(f'Os múltiplos de 5:  {self.opera.exercicio04()}')
+
+            elif self.opcao == 12:
+                self.coletarr()
+                print(f'O numero é:  {self.opera.exercicio05(self.num1)}')
+
+            elif self.opcao == 13:
+                self.coletarr()
+                print(f'O número é:  {self.opera.exercicio06(self.num1)}')
+
+            elif self.opcao == 14:
+                self.coletarr()
+                print(f'A tabuada do numero é:  {self.opera.exercicio07(self.num1)}')
+
+            elif self.opcao == 15:
+                self.coletarr()
+                print(f'Os números são:  {self.opera.exercicio08(self.num1)}')
+
 
 
 
